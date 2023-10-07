@@ -114,14 +114,22 @@ setup_score_turtle()
 Mky_Lisans_turtles()
 hide_turtles_mky()
 show_turtles_randomly()
+
 countdown_1 = input("Kaç Saniye Süre İstersiniz(İdeal:10): ")
+countdown_2 = int(countdown_1)
+countdown(countdown_2)
+turtle.tracer(1)
 number_mky = 10
 while number_mky > 0:
     print(number_mky)
     time.sleep(1)
     number_mky -= 1
-countdown_2 = int(countdown_1)
-countdown(countdown_2)
-turtle.tracer(1)
+
+
+
+
+
+
+
 
 turtle.mainloop()
